@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "All the Tabs",
+    "description": "For when you need to open all the tabs.",
+    "version": "0.1",
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": {
+            "19": "allthetabs-19.png",
+            "38": "allthetabs-38.png"
+        },
+        "default_popup": "popup.html"
+    }
+}
